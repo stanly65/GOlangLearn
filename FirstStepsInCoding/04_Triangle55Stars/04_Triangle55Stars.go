@@ -4,9 +4,12 @@ import "fmt"
 
 func main()  {
 
-	for row:= 1; row <= 10; row++{
-		//var asterisk = new var('*')
-		//fmt.Println(asterisk)
+		str := "*"
+		for i := 0; i < 10; i++ {
+		fmt.Printf("%s\n", str)
+		str = str + "*"
 	}
-
 }
+
+
+
